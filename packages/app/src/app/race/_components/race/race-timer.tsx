@@ -8,7 +8,7 @@ export default function RaceTimer({
   stopTimer?: boolean;
 }) {
   const [elapsedTime, setElapsedTime] = useState("0");
-  const interval = useRef<NodeJS.Timer>();
+  const interval = useRef<any>();
 
   useEffect(() => {
     function updateElapsedTime() {

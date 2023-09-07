@@ -1,6 +1,4 @@
 /node_modules
-.env
-.env.local
 
 # MacOS generated files
 **/.DS_Store
