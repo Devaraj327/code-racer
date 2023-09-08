@@ -1,6 +1,6 @@
 import { Language } from "@code-racer/app/src/config/languages";
 import { siteConfig } from "@code-racer/app/src/config/site";
-import type { RaceParticipant } from "@code-racer/app/src/lib/prisma";
+// import type { RaceParticipant } from "@code-racer/app/src/lib/prisma";
 import { prisma } from "@code-racer/app/src/lib/prisma";
 import { type Server } from "socket.io";
 import {
@@ -19,7 +19,7 @@ type RaceId = string;
 type Timestamp = number;
 
 export type Participant = {
-  id: RaceParticipant["id"];
+  id: any;
   raceId: RaceId;
   position: number;
   finishedAt: Timestamp | null;

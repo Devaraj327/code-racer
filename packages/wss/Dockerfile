@@ -18,7 +18,7 @@ FROM base as build
 RUN mkdir -p packages/app
 RUN mkdir -p packages/wss
 
-COPY --link package.json package-lock.json .
+COPY --link package.json package-lock.json ./
 COPY --link packages/app/package.json packages/app
 COPY --link packages/wss/package.json packages/wss
 RUN npm ci

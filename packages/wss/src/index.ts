@@ -5,7 +5,7 @@ import { Game } from "./game";
 import { ClientToServerEvents } from "./events/client-to-server";
 import { ServerToClientEvents } from "./events/server-to-client";
 
-const PORT = process.env.PORT;
+const PORT = 3001;
 
 if (!PORT) {
   throw new Error("Expected process.env.PORT to have been set, but it was not");
