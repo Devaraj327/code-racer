@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import Header from "@/components/header";
 import type { Metadata } from "next";
 import NextTopLoader from "nextjs-toploader";
-import { Footer } from "@/components/footer";
+// import { Footer } from "@/components/footer";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import { ContextProvider } from "@/components/context-provider";
 import { siteConfig } from "@/config/site";
@@ -52,7 +52,7 @@ export default function RootLayout({
         <ContextProvider>
           <Header />
           <div className="container py-2 h-fit md:py-18 grow">{children}</div>
-          <Footer />
+          {/* <Footer /> */}
           <Confetti />
           <Toaster />
           <TailwindIndicator />

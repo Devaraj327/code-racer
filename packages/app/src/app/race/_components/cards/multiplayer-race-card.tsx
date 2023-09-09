@@ -38,13 +38,13 @@ export default function MultiplayerRaceCard({ enabled }: { enabled: boolean }) {
   }
 
   return (
-    <Card className="flex flex-col justify-between flex-1 border-2 border-warning">
+    <Card className="flex flex-col justify-between flex-1 border-2 border-primary">
       <CardHeader>
         <div className="grid text-center place-content-center">
           <Users className="justify-self-center" size={40} />
           <h2
             style={bruno_ace_sc.style}
-            className="text-3xl font-bold text-warning"
+            className="text-3xl font-bold text-primary"
           >
             Multiplayer
           </h2>

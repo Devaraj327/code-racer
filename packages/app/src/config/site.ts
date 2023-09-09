@@ -25,17 +25,17 @@ export const siteConfig = {
       },
     ];
 
-    if (isLoggedIn) {
-      items.push({
-        title: "Add Snippet",
-        href: "/add-snippet",
-      });
-    }
+    // items.push({
+    //   title: "Add Snippet",
+    //   href: "/add-snippet",
+    // });
+    // if (isLoggedIn) {
+    // }
 
-    items.push({
-      title: "Contributors",
-      href: "/contributors",
-    });
+    // items.push({
+    //   title: "Contributors",
+    //   href: "/contributors",
+    // });
 
     return items;
   },

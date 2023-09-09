@@ -30,7 +30,7 @@ export default function PracticeRaceCard() {
 
   return (
     <Card
-      className="flex flex-col justify-between flex-1 border-2 border-warning"
+      className="flex flex-col justify-between flex-1 border-2 border-primary"
       data-cy="practice-card"
     >
       <CardHeader>
@@ -38,7 +38,7 @@ export default function PracticeRaceCard() {
           <Target className="justify-self-center" size={40} />
           <h2
             style={bruno_ace_sc.style}
-            className="text-3xl font-bold text-warning"
+            className="text-3xl font-bold text-primary"
           >
             Practice
           </h2>

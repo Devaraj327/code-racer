@@ -2,12 +2,13 @@ import { ModeToggle } from "./mode-toggle";
 import { siteConfig } from "@/config/site";
 import { MobileNav } from "./mobile-nav";
 import { MainNav } from "./main-nav";
-import { UserDropdown } from "./user-dropdown";
+// import { UserDropdown } from "./user-dropdown";
 import { getCurrentUser } from "@/lib/session";
 import Notification from "./notification";
 
 export async function Header() {
   const user = await getCurrentUser();
+  
   return (
     <header className="sticky top-0 z-40 flex w-full dark:shadow-black shadow-slate-300 dark:bg-opacity-50 bg-background/10 backdrop-blur-md">
       <div className="flex items-center w-full px-4 space-x-4 lg:container h-14 sm:space-x-0">
@@ -18,7 +19,7 @@ export async function Header() {
         <nav className="items-center hidden h-full space-x-2 md:flex">
           {user && <Notification userId={user.id} />}
           <ModeToggle />
-          <UserDropdown user={user} />
+          {/* <UserDropdown user={user} /> */}
         </nav>
       </div>
     </header>

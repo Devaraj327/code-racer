@@ -27,10 +27,10 @@ export function MainNav({ items }: { items?: NavItem[] }) {
                   key={index}
                   href={item.href}
                   className={cn(
-                    "md:text-xs lg:text-sm flex h-full items-center p-4 border-b-2 border-b-yellow-500 border-opacity-0 hover:text-yellow-500 border-t-2 border-t-transparent hover:bg-white hover:bg-opacity-5",
+                    "md:text-xs lg:text-sm flex h-full items-center p-4 border-b-2 border-b-yellow-500 border-opacity-0 hover:text-primary border-t-2 border-t-transparent hover:bg-white hover:bg-opacity-5",
                     {
                       "cursor-not-allowed opacity-80": item.disabled,
-                      "border-b-2 border-b-yellow-500 border-opacity-100 text-yellow-500 decoration-2 decoration-primary":
+                      "border-b-2 border-b-primary border-opacity-100 text-primary decoration-2 decoration-primary":
                         isActiveRoute(currentPathName as string, item.href),
                     }
                   )}
