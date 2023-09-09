@@ -5,7 +5,7 @@ generator client {
 
 datasource db {
     provider = "postgresql"
-    url      = "postgresql://devan:synnefo@host.docker.internal:5432/postgres" //env("DATABASE_URL")
+    url      =  env("DATABASE_URL")
 }
 
 enum UserRole {

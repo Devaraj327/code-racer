@@ -11,7 +11,7 @@ export type SiteConfig = typeof siteConfig;
 // import * as prettierPluginRuby from "@prettier/plugin-ruby";
 
 export const siteConfig = {
-  name: "CodeRacer",
+  name: "NovRacer",
   description: "Accelerating coding skills, competitive thrills!",
   getHeaderLinks: (isLoggedIn: boolean) => {
     const items = [

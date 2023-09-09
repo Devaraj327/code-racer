@@ -8,7 +8,7 @@ export default function HeroBanner() {
       <TitleBackdropSvg />
       <div className="absolute top-[50%] max-md:left-[50%] max-md:translate-x-[-50%] max-md:mx-auto translate-y-[-50%] text-center md:text-left">
         <h1 className="text-5xl leading-normal font-special lg:text-7xl xl:text-8xl md:leading-none color-primary">
-          CodeRacer
+          NovRacer
         </h1>
         <p className="my-2 text-lg md:text-2xl color-primary">
           Test your typing speed and race against other coders
