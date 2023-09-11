@@ -25,10 +25,10 @@ export const siteConfig = {
       },
     ];
 
-    // items.push({
-    //   title: "Add Snippet",
-    //   href: "/add-snippet",
-    // });
+    items.push({
+      title: "Add Snippet",
+      href: "/add-snippet",
+    });
     // if (isLoggedIn) {
     // }
 

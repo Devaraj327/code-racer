@@ -2,7 +2,7 @@ import { ModeToggle } from "./mode-toggle";
 import { siteConfig } from "@/config/site";
 import { MobileNav } from "./mobile-nav";
 import { MainNav } from "./main-nav";
-// import { UserDropdown } from "./user-dropdown";
+import { UserDropdown } from "./user-dropdown";
 import { getCurrentUser } from "@/lib/session";
 import Notification from "./notification";
 
