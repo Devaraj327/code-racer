@@ -27,7 +27,7 @@ export const siteConfig = {
 
     items.push({
       title: "Add Snippet",
-      href: "/add-snippet",
+      href: "/add-snippets",
     });
     // if (isLoggedIn) {
     // }
