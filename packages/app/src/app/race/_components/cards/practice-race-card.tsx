@@ -5,7 +5,7 @@ import { ArrowRight, Target } from "lucide-react";
 import { cn } from "@/lib/utils";
 import React, { SetStateAction, useState } from "react";
 import { useRouter } from "next/navigation";
-import LanguageDropDown from "@/app/add-snippet/_components/language-dropdown";
+import LanguageDropDown from "@/app/add-snippets/_components/language-dropdown";
 import { bruno_ace_sc } from "@/lib/fonts";
 
 export default function PracticeRaceCard() {

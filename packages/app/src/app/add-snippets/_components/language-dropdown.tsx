@@ -37,7 +37,7 @@ const LanguageDropdown = ({
     if (savedCodeLanguage) {
       onChange(savedCodeLanguage);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -51,7 +51,7 @@ const LanguageDropdown = ({
         >
           {value
             ? snippetLanguages.find((language) => language.value === value)
-                ?.label
+              ?.label
             : "Select language..."}
           <ChevronsUpDown className="w-4 h-4 ml-2 opacity-50 shrink-0" />
         </Button>

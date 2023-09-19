@@ -95,7 +95,7 @@ export default function MultiplayerRaceCard({ enabled }: { enabled: boolean }) {
                 ) : (
                   <ArrowRight
                     size="20"
-                    className="absolute -translate-y-1/2 opacity-50 right-4 top-1/2"
+                    className="absolute -translate-y-1/2 right-4 top-1/2"
                   />
                 )}
               </Button>
