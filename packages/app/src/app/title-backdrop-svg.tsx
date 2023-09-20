@@ -44,14 +44,14 @@ const useWindowWide = () => {
 };
 
 const config = {
-  count: 100,
+  count: 200,
   line1: "#009090",
   line2: "#884242",
   dashLengthInit: 0.6,
   strokeWidth: 1,
-  speed: 0.5,
+  speed: 0.4,
   width: 500,
-  height: 400,
+  height: 500,
 };
 
 export default function TitleBackdropSvg() {
