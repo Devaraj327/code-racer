@@ -25,7 +25,7 @@ export const addSnippetAction = validatedCallback({
       name: 'Racer 7579',
       email: '144653548@example.com',
       image: 'https://avatars.githubusercontent.com/u/144653548?v=4',
-      id: 'clmegpgdt000a4p4jafyzan69',
+      id: 'clktzbpun000008jv0wnqgwxz',
       role: 'USER'
     }
     if (!user) {
